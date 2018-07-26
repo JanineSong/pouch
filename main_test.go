@@ -21,7 +21,6 @@ func TestMain(t *testing.T) {
 			args = append(args, arg)
 		}
 	}
-
 	waitCh := make(chan int, 1)
 
 	os.Args = args
